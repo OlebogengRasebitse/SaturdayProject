@@ -1,0 +1,111 @@
+body{
+    margin: auto;
+    padding: auto;
+    width: auto;
+  }
+  .map1 {
+    display: flex;
+  }
+
+  .mapA {
+    display: inline;
+    padding-left: 8vw;
+  }
+
+  .map2 {
+    display: flex;
+  }
+
+  .mapB {
+    display: inline;
+    padding-top: 10vh;
+    padding-left: 5vw;
+    width: 35vw;
+    margin: 0 auto;
+  }
+
+  .mapC {
+    display: inline;
+  }
+
+  /*=======form=========*/
+
+  form {
+    margin: 0;
+    padding: 0;
+  }
+
+  fieldset {
+    border: 1px solid black;
+    padding: 20px;
+    width: auto;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  /* Style form inputs and textareas */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  /* Style form submit button */
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  /*===table =======*/
+  section {
+    padding-left: 12vw;
+  }
+
+  .store-table {
+    width: 70%;
+    border-collapse: collapse;
+    border: 1px solid gray;
+  }
+
+  .store-table th,
+  .store-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid gray;
+    border: 1px solid;
+
+  }
+
+  .store-table th {
+    background-color: #e3e1e1;
+  }
+
+  .store-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .store-table tr:hover {
+    background-color: #e9e9e9;
+  }
