@@ -1,0 +1,68 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+    color: white;
+}
+
+/* the grid of about contents*/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5%;
+    align-items: center;
+
+}
+
+#WELCOME {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about {
+    background-color: #f5f50b; 
+    color:#000000;
+    transition: background-color 0.3s ease, color 0.3s ease, font-size 0.3s ease; 
+    margin-top: 150px;
+    margin-left: 10px;
+    padding: 20px;
+    font-size: x-small;
+  }
+  
+  .about:hover {
+    background-color: #167e19; 
+    color: #000000; 
+    font-size: 18px; 
+  }
+  
+.img-container {
+    position: relative;
+    width: 300px; /* Adjust the width as per your image size */
+    height: 200px; /* Adjust the height as per your image size */
+  }
+  
+  .img-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 175%;
+    transition: opacity 0.5s ease; /* Adjust the transition duration as needed */
+  }
+  
+  .img-container img.bottom {
+    opacity: 0;
+  }
+  
+  .img-container:hover img.top {
+    opacity: 0;
+  }
+  
+  .img-container:hover img.bottom {
+    opacity: 1;
+  }
+  
