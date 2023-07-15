@@ -1,111 +1,135 @@
-body{
-    margin: auto;
-    padding: auto;
-    width: auto;
-  }
-  .map1 {
-    display: flex;
-  }
+body {
+  margin: auto;
+  padding: auto;
+  width: auto;
+}
 
-  .mapA {
-    display: inline;
-    padding-left: 8vw;
-  }
+.map1 {
+  display: flex;
+}
 
-  .map2 {
-    display: flex;
-  }
+.mapA {
+  display: inline;
+  padding-left: 8vw;
+}
 
-  .mapB {
-    display: inline;
-    padding-top: 10vh;
-    padding-left: 5vw;
-    width: 35vw;
-    margin: 0 auto;
-  }
+.map2 {
+  display: flex;
+}
 
-  .mapC {
-    display: inline;
-  }
+.mapB {
+  display: inline;
+  padding-top: 10vh;
+  padding-left: 5vw;
+  width: 35vw;
+  margin: 0 auto;
+}
 
-  /*=======form=========*/
+.mapC {
+  display: inline;
+}
 
-  form {
-    margin: 0;
-    padding: 0;
-  }
+/*=======form=========*/
 
-  fieldset {
-    border: 1px solid black;
-    padding: 20px;
-    width: auto;
-  }
+form {
+  margin: 0;
+  padding: 0;
+}
 
-  label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
+fieldset {
+  border: 1px solid black;
+  padding: 20px;
+  width: auto;
+}
 
-  /* Style form inputs and textareas */
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 95%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid black;
-    border-radius: 5px;
-  }
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
 
-  select {
-    width: 95%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid black;
-    border-radius: 5px;
-  }
+/* Style form inputs and textareas */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
 
-  /* Style form submit button */
-  input[type="submit"] {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-  }
+select {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
 
-  /*===table =======*/
-  section {
-    padding-left: 12vw;
-  }
+/* Style form submit button */
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: yellow;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
 
-  .store-table {
-    width: 70%;
-    border-collapse: collapse;
-    border: 1px solid gray;
-  }
+fieldset{
+  border-color: blue;
+}
 
-  .store-table th,
-  .store-table td {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid gray;
-    border: 1px solid;
+/*===table =======*/
+section {
+  padding-left: 12vw;
+}
 
-  }
+.store-table {
+  width: 70%;
+  border-collapse: collapse;
+  border: 1px solid gray;
+}
 
-  .store-table th {
-    background-color: #e3e1e1;
-  }
+.store-table th,
+.store-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid gray;
+  border: 1px solid;
 
-  .store-table tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
+}
 
-  .store-table tr:hover {
-    background-color: #e9e9e9;
-  }
+.store-table th {
+  background-color: #e3e1e1;
+}
+
+.store-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.store-table tr:hover {
+  background-color: #e9e9e9;
+}
+
+.hide{
+  display: none;
+}
+
+.table-row{
+  width: 70%;
+  align-self: center;
+  height: 35%;
+}
+
+ .legend-title{
+  font-size:  1.4em;
+  font-weight:  bold;
+}
+
+.table-header{
+  color: blue;
+}
